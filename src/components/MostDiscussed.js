@@ -34,7 +34,7 @@ const MostDiscussed = () => {
             <span className="text-blue-300">{article.rating}</span>
           </div>
           <p className="text-lg mr-2">{article.text}</p>
-          <p className=" text-xs">{article.author}</p>
+          <p className=" text-xs mt-1">{article.author}</p>
         </div>
       ))}
     </div>
